@@ -63,12 +63,20 @@ Each flavor ships with **17 accent schemes**. The special `Base` accent activate
 <td><img src="assests/yozakura-hiru-base-spicetify-preview.png" alt="Hiru Base preview"/></td>
 </tr>
 <tr>
-<td align="center"><b>Accent switcher panel — Yoru</b></td>
-<td align="center"><b>Accent switcher panel — Hiru</b></td>
+<td align="center"><b>Accent switcher — settings — Yoru</b></td>
+<td align="center"><b>Accent switcher — settings — Hiru</b></td>
 </tr>
 <tr>
-<td><img src="assests/yozakura-yoru-spicetify-extension-preview-1.png" alt="Yoru switcher preview"/></td>
-<td><img src="assests/yozakura-hiru-spicetify-extension-preview-1.png" alt="Hiru switcher preview"/></td>
+<td><img src="assests/yozakura-yoru-spicetify-extension-preview-1.png" alt="Yoru switcher settings preview"/></td>
+<td><img src="assests/yozakura-hiru-spicetify-extension-preview-1.png" alt="Hiru switcher settings preview"/></td>
+</tr>
+<tr>
+<td align="center"><b>Accent switcher — modal — Yoru</b></td>
+<td align="center"><b>Accent switcher — modal — Hiru</b></td>
+</tr>
+<tr>
+<td><img src="assests/yozakura-yoru-spicetify-extension-preview-2.png" alt="Yoru switcher modal preview"/></td>
+<td><img src="assests/yozakura-hiru-spicetify-extension-preview-2.png" alt="Hiru switcher modal preview"/></td>
 </tr>
 </table>
 
@@ -88,8 +96,8 @@ The installer will walk you through picking a flavor and accent:
 
 ```
   ╭──────────────────────────────────────────────╮
-  │        夜桜  Yozakura — Spicetify              │
-  │     github.com/shunsui18/spicetify            │
+  │        夜桜  Yozakura — Spicetify             │
+  │     github.com/shunsui18/spicetify           │
   ╰──────────────────────────────────────────────╯
 
   ╭─ Choose a flavour ──────────────────────────╮
