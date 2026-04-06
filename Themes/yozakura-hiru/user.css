@@ -1,7 +1,7 @@
 :root {
     --accent: var(--spice-button);
     --button-text: var(--spice-main);
-    --accent-filter: brightness(0) invert(84%) sepia(27%) saturate(273%) hue-rotate(345deg) brightness(99%) contrast(92%);
+    --accent-filter: brightness(0) invert(32%) sepia(65%) saturate(700%) hue-rotate(298deg) brightness(88%) contrast(90%);
 }
 
 @keyframes spin {
@@ -1451,53 +1451,53 @@ body > generic-modal > div > div {
 /*════════════════════════════════════════════════════════════════════
   Yozakura Base — Multi-Accent Mode
   Active when the JS extension sets html[data-yoza-mode="base"].
-  Each UI zone uses its own accent from the Yoru palette instead of
+  Each UI zone uses its own accent from the Hiru palette instead of
   a single --accent colour.
 
   Zone → Accent mapping:
-    Navigation buttons  Sky        #7ab0c8  sky blue
-    Search               Moss       #7aa898  soft green
-    Library actions      Indigo     #6080b8  deep blue
-    Scrollbars           Harbour    #507098  slate
-    Primary play button  Bloom      #e098a0  cherry blossom
-    Track list actions   Starlight  #e8d870  gold
-    Home header          Ember      #b07888  dusty rose
-    Links & text         Seafoam    #609098  teal
-    Context menu         Blush      #d8aac4  soft pink
-    Filter / sort        Petal      #b898d0  lavender
-    Borders / dividers   Crimson    #c07888  deep rose
-    Marketplace          Moon       #e8eef8  near-white
-    Settings             Wisteria   #8898c8  blue-purple
-    Explicit label       Amber      #d0a870  warm amber
-    Popups / modals      Lantern    #f2d4b8  warm peach
-    Chips / tags         Iris       #9080c0  purple
+    Navigation buttons  Sky        #2878a8  deep sky blue
+    Search               Moss       #287848  deep green
+    Library actions      Indigo     #2858b8  deep indigo
+    Scrollbars           Harbour    #286890  deep teal
+    Primary play button  Bloom      #a02868  deep cherry
+    Track list actions   Starlight  #887018  deep gold
+    Home header          Ember      #884058  deep dusty rose
+    Links & text         Seafoam    #187870  deep teal-green
+    Context menu         Blush      #a03868  deep rose
+    Filter / sort        Petal      #8830a0  deep lavender
+    Borders / dividers   Crimson    #983040  deep crimson
+    Marketplace          Cream      #806030  warm brown
+    Settings             Wisteria   #4840b0  deep indigo-purple
+    Explicit label       Amber      #985818  deep amber
+    Popups / modals      Lantern    #a86018  deep orange
+    Chips / tags         Iris       #6030a0  deep purple
 ════════════════════════════════════════════════════════════════════*/
 
 /* ─── Zone variables ─────────────────────────────────────────────── */
 html[data-yoza-mode="base"] {
-  --ya-nav:         #7ab0c8; /* Sky        */
-  --ya-search:      #7aa898; /* Moss       */
-  --ya-library:     #6080b8; /* Indigo     */
-  --ya-scroll:      #507098; /* Harbour    */
-  --ya-play:        #e098a0; /* Bloom      */
-  --ya-track:       #e8d870; /* Starlight  */
-  --ya-home:        #b07888; /* Ember      */
-  --ya-link:        #609098; /* Seafoam    */
-  --ya-context:     #d8aac4; /* Blush      */
-  --ya-filter:      #b898d0; /* Petal      */
-  --ya-border:      #c07888; /* Crimson    */
-  --ya-market:      #e8eef8; /* Moon       */
-  --ya-settings:    #8898c8; /* Wisteria   */
-  --ya-explicit:    #d0a870; /* Amber      */
-  --ya-popup:       #f2d4b8; /* Lantern    */
-  --ya-chip:        #9080c0; /* Iris       */
+  --ya-nav:         #2878a8; /* Sky        */
+  --ya-search:      #287848; /* Moss       */
+  --ya-library:     #2858b8; /* Indigo     */
+  --ya-scroll:      #286890; /* Harbour    */
+  --ya-play:        #a02868; /* Bloom      */
+  --ya-track:       #887018; /* Starlight  */
+  --ya-home:        #884058; /* Ember      */
+  --ya-link:        #187870; /* Seafoam    */
+  --ya-context:     #a03868; /* Blush      */
+  --ya-filter:      #8830a0; /* Petal      */
+  --ya-border:      #983040; /* Crimson    */
+  --ya-market:      #806030; /* Cream      */
+  --ya-settings:    #4840b0; /* Wisteria   */
+  --ya-explicit:    #985818; /* Amber      */
+  --ya-popup:       #a86018; /* Lantern    */
+  --ya-chip:        #6030a0; /* Iris       */
   /* Text contrast companions for zones used as backgrounds */
-  --ya-nav-text: #2a3450;
-  --ya-library-text: #2a3450;
-  --ya-play-text: #2a3450;
-  --ya-market-text: #2a3450;
-  --ya-explicit-text: #2a3450;
-  --ya-chip-text: #2a3450;
+  --ya-nav-text: #f0e8f5;
+  --ya-library-text: #f0e8f5;
+  --ya-play-text: #f0e8f5;
+  --ya-market-text: #f0e8f5;
+  --ya-explicit-text: #f0e8f5;
+  --ya-chip-text: #f0e8f5;
 }
 
 /*--------------------------------------------------------------------*/
@@ -1866,8 +1866,8 @@ html[data-yoza-mode="base"] .x-settings-tooltipIconWrapper > .e-91000-icon {
 }
 
 html[data-yoza-mode="base"] .x-settings-equalizerPanelCanvas {
-  /* Harbour filter — generated from #507098 */
-  filter: brightness(0) invert(42%) sepia(51%) saturate(383%) hue-rotate(173deg) brightness(90%) contrast(90%) !important;
+  /* Harbour filter — generated from #286890 */
+  filter: brightness(0) invert(32%) sepia(60%) saturate(600%) hue-rotate(170deg) brightness(78%) contrast(90%) !important;
 }
 
 /*--------------------------------------------------------------------*/
@@ -2151,7 +2151,7 @@ html[data-yoza-mode="base"] input:checked ~ .x-toggle-indicatorWrapper {
 
 /* Track-list / sidebar equalizer icon — Petal filter matches --accent */
 html[data-yoza-mode="base"] .H70qcBekoGWOlskuON5R {
-  filter: brightness(0) invert(75%) sepia(16%) saturate(878%) hue-rotate(223deg) brightness(84%) contrast(92%) !important; /* Petal */
+  filter: brightness(0) invert(25%) sepia(80%) saturate(800%) hue-rotate(256deg) brightness(85%) contrast(95%) !important; /* Petal */
 }
 
 /* Reassign bJSfgC icon (was Lantern) → Wisteria to reduce Lantern dominance */
