@@ -89,7 +89,7 @@ Each flavor ships with **17 accent schemes**. The special `Base` accent activate
 Run without any arguments to launch the guided menu:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/spicetify/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/yozakura-spicetify/main/install.sh)
 ```
 
 The installer will walk you through picking a flavor and accent:
@@ -97,7 +97,7 @@ The installer will walk you through picking a flavor and accent:
 ```
   ╭──────────────────────────────────────────────╮
   │        夜桜  Yozakura — Spicetify             │
-  │     github.com/shunsui18/spicetify           │
+  │     github.com/shunsui18/yozakura-spicetify  │
   ╰──────────────────────────────────────────────╯
 
   ╭─ Choose a flavour ──────────────────────────╮
@@ -129,7 +129,7 @@ The installer will walk you through picking a flavor and accent:
 Skip the menu entirely by passing flags directly:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/spicetify/main/install.sh) --theme yoru --accent Bloom
+bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/yozakura-spicetify/main/install.sh) --theme yoru --accent Bloom
 ```
 
 | Flag | Values | Description |
@@ -148,7 +148,7 @@ If you prefer to clone and run locally:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/shunsui18/spicetify.git && cd spicetify
+git clone https://github.com/shunsui18/yozakura-spicetify.git && cd yozakura-spicetify
 
 # 2a. Interactive
 ./install.sh
@@ -183,7 +183,7 @@ spicetify config color_scheme Crimson && spicetify apply
 ## ✦ File Structure
 
 ```
-spicetify/
+yozakura-spicetify/
 ├── assests/
 │   ├── yozakura-yoru-base-spicetify-preview.png
 │   ├── yozakura-yoru-spicetify-extension-preview-1.png
